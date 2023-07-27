@@ -4,82 +4,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easton Ingram</title>
+    <link rel="icon" type="image/png" href="Favicon.png"/>
+
 </head>
+<style>
+    body{
+        color: #c9d1d5;
+        background-color: #0c243c;
+        padding-top: 17vw;
+    }
+    nav{
+        text-align: center;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        background-color: #55c2c3;
+        color: #0c243c;
+        position: fixed;
+        line-height: 10px;
+    }
+    div{
+        scroll-margin-top: 17vw;
+    }
+
+    .jump{
+        margin-bottom: 5px;
+        background-color: #0c243c;
+        color: #c9d1d5;
+        border: none;
+        transition: opacity 0.15s;
+        padding: 1%;
+        border-radius: 10px;
+        box-shadow: 2px 2px #c9d1d5;
+    }
+
+    .jump:hover{
+        opacity: 0.8;
+    }
+
+
+    h2{
+        color: #55c2c3;
+    }
+        
+</style>
+<nav>
+    <h1 style="font-size: 6vw;"><b>Easton Ingram</b></h1>
+    <a href="#Education"><button class="jump">Education</button></a>
+    <a href="#Experience"><button button class="jump">Experience</button class="jump"></a>
+    <a href="#Skills"><button class="jump">Skills</button></a>
+    <a href="#Honors and Activities"><button class="jump">Honors and Activities</button></a>
+</nav>
 <body>
-    <h1 style="text-align: center;"><b>Easton Ingram</b></h1>
-    <p style="text-align: center;">ejikwc@umsystem.edu</p>
-    <p style="text-align: center;">573-247-0375</p>
-    <div style="text-align:center">
-        <span>LinkedIn: </span>
-        <a href="https://www.linkedin.com/in/easton-ingram-4a3b261b6/" target="_blank" >https://www.linkedin.com/in/easton-ingram-4a3b261b6/</a>
+    <div>
+        <p style="text-align: center;">ejikwc@umsystem.edu</p>
+        <p style="text-align: center;">573-247-0375</p>
+    </div>
+    <style>
+        
+    .linkedin-button{
+        border: none;
+        padding: 0;
+        background-color: inherit;
+        transition: opacity 0.15s;
+    }
+    .linkedin-button:hover{
+        opacity: 0.8;
+    }
+
+    .linkedin-button:active{
+        opacity: 0.4;
+    }
+
+    .linkedin-img{
+        width: 7%;
+    }
+    </style>
+    <div class="linkedin">
+        <button class="linkedin-button">
+            <a class="linkedin" href="https://www.linkedin.com/in/easton-ingram-4a3b261b6/" target="_blank">
+            <img class="linkedin-img" src="linkedin.png" >
+            </a>
+    </button>
     </div>
 
-    <h2>Education</h2>
-    <div style="float: left">Missouri University of Science & Technology</div>
-    <div style="float: right">December 2024</div>
-    <br>
-    <div style="float: left"><b>B.S. Mechanical Engineering</b></div>
-    <div style="float: right"><b>GPA: 3.747/4.00</b></div>
-    <br>
-    <span><b>Minor: Computer Science</b></span>
+    <div id="Education">
+        <h2>Education</h2>
+        <div style="float: left">Missouri University of Science & Technology</div>
+        <div style="float: right">December 2024</div>
+        <br>
+        <div style="float: left"><b>B.S. Mechanical Engineering</b></div>
+        <div style="float: right"><b>GPA: 3.747/4.00</b></div>
+        <br>
+        <span><b>Minor: Computer Science</b></span>
+    </div>
 
-    <h2>Experience</h2>
+    <div id="Experience">
+        <h2>Experience</h2>
 
-    <div style="float: left">Missouri University of Science & Technology</div>
-    <br>
-    <span><b>Undergraduate Research Fellow – MAE Department </b></span>
-    <br>
-    <span>May 2022 – Present</span>
-    <ul>
-        <li>Simulated electrostatic transport of lunar dust</li>
-        <li>Developed efficient and quality code through research with a team</li>
-        <li>Optimized dynamic system using machine learning</li>
-    </ul>
-    <br>
+        <div style="float: left">
+            Missouri University of Science & Technology
+        </div>
+        <br>
+        <span><b>Undergraduate Research Fellow – MAE Department </b></span>
+        <br>
+        <span>May 2022 – Present</span>
+        <ul>
+            <li>Simulated electrostatic transport of lunar dust</li>
+            <li>Developed efficient and quality code through research with a team</li>
+            <li>Optimized dynamic system using machine learning</li>
+        </ul>
+        <br>
 
-    <span>Missouri University of Science & Technology</div>
-    <br>
-    <span><b>Aerodynamics Project Engineer – Formula SAE Team</b> </span>
-    <br>
-    <span>Aug 2021 – May 2022</span>
-    <ul>
-        <li>Designed and implemented the 2022 racecar rear wing using CAD software</li>
-        <li>Created CFD simulations to analyze designs and improve the aerodynamic package</li>
-        <li>Worked on a team to build a racecar and compete globally</li>
-    </ul>
+        <span>Missouri University of Science & Technology</span>
+        <br>
+        <span><b>Aerodynamics Project Engineer – Formula SAE Team</b> </span>
+        <br>
+        <span>Aug 2021 – May 2022</span>
+        <ul>
+            <li>Designed and implemented the 2022 racecar rear wing using CAD software</li>
+            <li>Created CFD simulations to analyze designs and improve the aerodynamic package</li>
+            <li>Worked on a team to build a racecar and compete globally</li>
+        </ul>
 
-    <span>Self-employed</span>
-    <br>
-    <span><b>Mechanic</b></span>
-    <br>
-    <span>Dec 2018 – Present</span>
-    <ul>
-        <li>Rebuilt engine, powder coated, and sprayed paint on a 1966 Ford Mustang</li>
-        <li>Built welding cart, disassembled and resold various motors, executed MIG welding</li>
-        <li>Budgeted time and money for large restoration project </li>
-    </ul>
+        <span>Self-employed</span>
+        <br>
+        <span><b>Mechanic</b></span>
+        <br>
+        <span>Dec 2018 – Present</span>
+        <ul>
+            <li>Rebuilt engine, powder coated, and sprayed paint on a 1966 Ford Mustang</li>
+            <li>Built welding cart, disassembled and resold various motors, executed MIG welding</li>
+            <li>Budgeted time and money for large restoration project </li>
+        </ul>
+    </div>
 
     
-
-    <h2>Skills</h2>
-    <ul>
-        <li>Siemens NX</li>
-        <li>Star CCM+</li>
-        <li>C/C++</li>
-        <li>Python</li>
-        <li>Fortran</li>
-        <li>Chapel</li>
-        <li>MATLAB</li>
-        <li>Linux</li>
-        <li>LaTeX</li>
-    </ul>
+    <div id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Siemens NX</li>
+            <li>Star CCM+</li>
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>Fortran</li>
+            <li>Chapel</li>
+            <li>MATLAB</li>
+            <li>Linux</li>
+            <li>LaTeX</li>
+        </ul>
+    </div>
     
-    <h2>Honors and Activities</h2>
+    <div id="Honors and Activities">
+        <h2>Honors and Activities</h2>
     <ul>
         <li>Missouri State FFA Degree</li>
         <li>Missouri Boys State - Attendant </li>
         <li>Salem FFA Chapter - Treasurer</li>
         <li>Salem High School National Honors Society - Vice President</li>
     </ul>
+    </div>
+    
 </body>
 </html>
