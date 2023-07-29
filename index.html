@@ -21,7 +21,11 @@
         background-color: #55c2c3;
         color: #0c243c;
         position: fixed;
-        line-height: 10px;
+        height: 17vw;
+        line-height: 1vw;
+        z-index:1;
+        text-shadow: 2px 2px #c9d1d5;
+
     }
     div{
         scroll-margin-top: 17vw;
@@ -44,23 +48,39 @@
 
     h2{
         color: #55c2c3;
+        margin: 2%;
+    }
+
+    .me{
+        height: 15vw;
+        border-radius: 50%;
+        left: 1vw;
+        top: 1vw;
+        position: absolute;
     }
         
 </style>
 <nav>
+    <img class="me" src="me.JPG"> 
     <h1 style="font-size: 6vw;"><b>Easton Ingram</b></h1>
     <a href="#Education"><button class="jump">Education</button></a>
     <a href="#Experience"><button button class="jump">Experience</button class="jump"></a>
     <a href="#Skills"><button class="jump">Skills</button></a>
     <a href="#Honors and Activities"><button class="jump">Honors and Activities</button></a>
-    
+
+
 </nav>
 <body>
-    <div>
-        <p style="text-align: center;">ejikwc@umsystem.edu</p>
-        <p style="text-align: center;">573-247-0375</p>
+    <div class="contact">
+        ejikwc@umsystem.edu
+        <br>
+        573-247-0375
     </div>
     <style>
+    .contact{
+        margin: 5px;
+        text-align: center;
+    }
     
     .linkedin{
         margin-left: auto;
@@ -88,11 +108,10 @@
     <div class="linkedin">
         <button class="linkedin-button">
             <a class="linkedin" href="https://www.linkedin.com/in/easton-ingram-4a3b261b6/" target="_blank">
-            <img class="linkedin-img" src="linkedin.png" >
+            <img class="linkedin-img" src="linkedin.png" alt="A picture of me">
             </a>
     </button>
     </div>
-
     <div id="Education">
         <h2>Education</h2>
         <div style="float: left">Missouri University of Science & Technology</div>
