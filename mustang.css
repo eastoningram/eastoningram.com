@@ -1,7 +1,7 @@
 .image-grid{
     --gap:16px;
     --num-cols: 4;
-    --row-height: 200 px;
+    --row-height: 300px;
 
     box-sizing: border-box;
     padding: var(--gap);
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 1024px) {
     .image-grid{
-        --num-cols: 2px;
+        --num-cols: 2;
         --row-height: 200px
     }
 }
