@@ -11,7 +11,10 @@ nav{
     background-color: #55c2c3;
     color: #0c243c;
     position: fixed;
-    height: 17vw;
+    @media only screen and (max-width: 600px) {
+        height: 20vw;
+    }
+    height: 15vw;
     line-height: 1vw;
     z-index:1;
     text-shadow: 2px 2px #c9d1d5;
@@ -40,7 +43,10 @@ div{
 
 
 .me{
-    height: 15vw;
+    @media only screen and (max-width: 600px) {
+        height: 15vw;
+    }
+    height: 13vw;
     border-radius: 50%;
     margin: 0;
     left: 1vw;
