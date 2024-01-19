@@ -12,7 +12,7 @@ nav{
     color: #0c243c;
     position: fixed;
     @media only screen and (max-width: 600px) {
-        height: 20vw;
+        height: 24vw;
     }
     height: 15vw;
     line-height: 1vw;
@@ -44,7 +44,7 @@ div{
 
 .me{
     @media only screen and (max-width: 600px) {
-        height: 15vw;
+        height: 17vw;
     }
     height: 13vw;
     border-radius: 50%;
