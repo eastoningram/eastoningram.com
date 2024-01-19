@@ -11,10 +11,7 @@ nav{
     background-color: #55c2c3;
     color: #0c243c;
     position: fixed;
-    @media only screen and (max-width: 600px) {
-        height: 24vw;
-    }
-    height: 15vw;
+    height: 17vw;
     line-height: 1vw;
     z-index:1;
     text-shadow: 2px 2px #c9d1d5;
@@ -34,6 +31,9 @@ div{
     border-radius: 10px;
     box-shadow: 2px 2px #c9d1d5;
     font-size: 2.0vw;
+    @media only screen and (max-width: 600px) {
+        font-size: 1.7vw;    
+    }
     
 }
 .jump:hover{
@@ -43,10 +43,7 @@ div{
 
 
 .me{
-    @media only screen and (max-width: 600px) {
-        height: 17vw;
-    }
-    height: 13vw;
+    height: 15vw;
     border-radius: 50%;
     margin: 0;
     left: 1vw;
